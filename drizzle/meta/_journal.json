@@ -8,13 +8,6 @@
       "when": 1768744829162,
       "tag": "0000_mean_kang",
       "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1768925200241,
-      "tag": "0001_plain_xorn",
-      "breakpoints": true
     }
   ]
 }
