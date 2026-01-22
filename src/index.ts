@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import subjectsRouter from "./routes/subjects";
+import securityMiddleware from "./middleware/security";
 
 
 
@@ -20,6 +21,8 @@ app.use(
 
 
 app.use(express.json());
+app.use(securityMiddleware)
+
 app.use('/api/subjects', subjectsRouter)
 
 app.get('/', (req, res) => {
